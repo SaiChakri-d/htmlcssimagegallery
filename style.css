@@ -1,23 +1,40 @@
-body{
-    margin-bottom: 300px;
-}
 div{
-    background-color: turquoise;
-    text-align: center;
     padding: 10px;
     margin: 10px;
-    
+}
+
+h3{
+    background-color: coral;
+    padding: 5px;
+    margin: 5px;
+    display: inline;
+}
+
+span{
+    background-color:orange;
+    padding: 5px;
+    margin: 5px;
+    display: block;
+}
+
+a{
+    background-color: rgb(5, 233, 43);
+    color: red;
+    padding: 5px;
+    margin: 5px;
+    display: block;
+}
+
+input{
+    outline: none;
+    display: block;
+    padding: 5px;
+    gap: 10px
+}
+
+section article{
+    background-color: rgb(5, 39, 233);
+    color: white;
     width: 500px;
-
-}
-
-#rounded-all{
-    border: 10px solid red;
-    border-radius: 30px;
-}
-
-#rounded-two{
-    border: 10px solid red;
-    border-top-left-radius: 30px;
-    border-bottom-right-radius: 30px;
+    display: inline-block;
 }
