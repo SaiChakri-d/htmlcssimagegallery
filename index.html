@@ -1,106 +1,162 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-<!--
+    <title>Simple table</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   
+    <table>
+        <thead>
+            <tr>
+                <th>Sl.No</th>
+                <th>Name</th>
+                <th>Company</th>
+                <th>Designation</th>
 
-     <h1>Hello People</h1>
-<h2>Hello People</h2>
-<h3>Hello People</h3>
-<h4>Hello People</h4>
-<h5>Hello People</h5>
-<h6>Hello People</h6>
-<hr>
-<p>lorem<b>bold</b> ipsum dolor sit amet, consectetur adipis</p>
-<p>Lorem ipsum <span>hello</span> dolor sit amet, consect.</p>
+            </tr>
+                </thead>
 
-<input type="text"> <br>
-<input type="color"> <br>
-<input type="password"> 
-<input type="text"> 
+                <tbody>
+                    <tr>
+<td>1</td>
+<td>John</td>
+<td>Amazon</td>
+<td>Manager</td>
+</tr>
 
-<li>Item-1</li>
-<li>Item-2</li>
-<li>Item-3</li> -->
-<!--
-    <h1>This is Top level heading</h1>
-<p>lorem</p>
+<tr>
+    <td>2</td>
+    <td>Jackey</td>
+    <td>Google</td>
+    <td>SDE-1</td>
+    </tr>
 
-<h2>Inline element</h2>
-<p><strong>This is inline element</strong> <i>italics</i> <u>underline</u></p>
-<a href="https://www.google.com/" target="_blank">click here</a>
--->
+    <tr>
+        <td>3</td>
+        <td>Jenny</td>
+        <td>Flipkart</td>
+        <td>SDE-2</td>
+        </tr>
 
-<!--internal Css
-<style>
-    .container,.header,.nav,.middle,.right,.left,.footer{
-        border: 1px solid red;
-        padding: 20px;
-    }
-    .middle{
-        height:70px;
-    }
-    .left{
-        float:Left;
-    }
-    .right{
-        float:Right;
-    }
-    .footer{
-        clear:both
-    }
-</style> -->
+        <tr>
+            <td>4</td>
+            <td>Wilson</td>
+            <td>Microsoft</td>
+            <td>Business Manager</td>
+            </tr>
 
-<!--
-<div id="test" class="container">
-<div class="header">Header</div>
-<div class="nav" id="nav">Navigation</div>
-<div class="middle" id="middle">
-    Middle<br>
-    <div class="left">Left</div>
-    <div class="right">Right</div>
-
-</div>
-<br>
-<div class="footer">Footer</div>
-</div>
+        <tr>
+            <td>5</td>
+            <td>Laura</td>
+            <td>Dell</td>
+            <td>Business Analyst</td>
+            </tr>
+                </tbody>
+    </table>
 
 
-Html5 semantic tags to create basic layout
-<h1>My Website</h1>
-<main class="container" id="container">
-<header class="header" id="header">Header</header>
-<br>
-<nav class="nav">Navigation</nav>
-<br>
-<section class="middle" id="middle">
-    Middle<br>
-    <aside class="left">Left</aside>
-    <aside class="right">Right</aside>
-</section>
+    <!--Table with col span-->
 
-<br>
-<footer class="footer">Footer</footer>
+<table border="1" cellspacing="2" cellspadding="10">
+<thead>
 
-</main> -->
+    <tr>
+        <th>Sl.No</th>
+        <th>Name</th>
+        <th>Company</th>
+        <th>Designation</th>
+    </tr>
+</thead>
+<tbody>
 
-</head>
-<body>
-<!--List tags-->  
-<ul type="square">  
-   <li>Biryani</li>
-   <li>dosa</li>
-   <li>vada</li>
-   <li>samosa</li>
+    <tr>
+<td>1</td>
+<td>John</td>
+<td>Amazon</td>
+<td>Manager</td>
+</tr>
 
-<ul>electronics
+<tr>
+<td>2</td>
+<td>Jackey</td>
+<td>Google</td>
+<td>SDE-1</td>
+</tr>
+
+<tr>
+<td>3</td>
+<td>Jenny</td>
+<td>Flipkart</td>
+<td>SDE-2</td>
+</tr>
+
+<tr>
+<td>4</td>
+<td>Wilson</td>
+<td>Microsoft</td>
+<td>Business Manager</td>
+</tr>
+
+<tr>
+<td>5</td>
+<td>Laura</td>
+<td>Dell</td>
+<td>Business Analyst</td>
+</tr>
+</tbody>
+    </table>
+
+    <!--table with css-->
+    <h1>Customized Table with css</h1>
+    <table id="test">
+    <thead>
+        <tr>
+            <th>Sl.No</th>
+            <th>Name</th>
+            <th>Company</th>
+            <th>Designation</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr>
+    <td>1</td>
+    <td>John</td>
+    <td>Amazon</td>
+    <td>Manager</td>
+    </tr>
+    
+    <tr>
+    <td>2</td>
+    <td>Jackey</td>
+    <td>Google</td>
+    <td>SDE-1</td>
+    </tr>
+    
+    <tr>
+    <td>3</td>
+    <td>Jenny</td>
+    <td>Flipkart</td>
+    <td>SDE-2</td>
+    </tr>
+    
+    <tr>
+    <td>4</td>
+    <td>Wilson</td>
+    <td>Microsoft</td>
+    <td>Business Manager</td>
+    </tr>
+    
+    <tr>
+    <td>5</td>
+    <td>Laura</td>
+    <td>Dell</td>
+    <td>Business Analyst</td>
+    </tr>
+    </tbody>
+</table>
 </body>
 </html>
