@@ -1,23 +1,23 @@
 body{
-     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 300px;
 }
-
-table,th,td{
-    border:1px solid red;
-    text-align:center;
-    padding:5px;
-    font-size:20px;
-}
-
-table{
-    width:70%;
-    box-shadow: 0 0 10px red;
+div{
+    background-color: turquoise;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    
+    width: 500px;
 
 }
 
-/*top,left,right,bottom-*/
+#rounded-all{
+    border: 10px solid red;
+    border-radius: 30px;
+}
 
-#test thead{
-    background-color:aquamarine;
-    color: blue;
+#rounded-two{
+    border: 10px solid red;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
 }
