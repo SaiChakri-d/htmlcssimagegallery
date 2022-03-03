@@ -49,18 +49,17 @@ let data = [
   // 1.return the data where dog type="dog"
   // 2.Multiply dog age by 7 that===human age
   // new age of the dog
-//   let age=data.filter((d)=>{
-//           return d.type==="dog"
-//       }).map((d)=>{
-//           return d.age*7
-//       })
-//       console.log(age)
   // multiply the dog age *7(MAP)
   // 3.sum of the all the dog ages
-  let dogages=data.filter((d)=>{
-              return d.type==="dog"
-          }).reduce((sum,d)=>{
-    return sum+d
-})
-console.log(dogages)
-  // reduce function
+  
+  //Chaining over Map Reduce and Filter
+
+  let age=data.filter((d)=>{
+      return d.type==="dog"
+  }).map((d)=>{
+      return d.age*7
+    }).reduce((sum,d)=>{
+        return sum+d
+    })
+
+    console.log(age)
