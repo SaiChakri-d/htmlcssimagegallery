@@ -1,0 +1,38 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+    color:#bb001f;
+    text-align: center;
+    background-color: rgb(247, 243, 188);
+}
+
+input[type=text],textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #7f71fc;
+    border-radius: 15px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 16px;
+  }
+
+  input[type=submit]{
+    background-color: #3650e7;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover{
+    background-color: #aa1c34;
+  }
+
+  .container{
+    border-radius:25px;
+    background-color: #f7f7f7;
+    padding: 20px;
+    text-align: left;
+    flex: 1;
+  }
